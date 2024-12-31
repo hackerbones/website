@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#posts">Blog Posts</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hi! I'm [Your Name], and this is my personal blog where I share my thoughts, ideas, and stories.</p>
+        </section>
+        <section id="posts">
+            <h2>Recent Posts</h2>
+            <article>
+                <h3>Post Title 1</h3>
+                <p>A brief summary of the first blog post. <a href="#">Read more</a></p>
+            </article>
+            <article>
+                <h3>Post Title 2</h3>
+                <p>A brief summary of the second blog post. <a href="#">Read more</a></p>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Feel free to <a href="mailto:your-email@example.com">reach out</a> with any questions or comments.</p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+header {
+    background-color: #ff0000;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    color: #ff0000;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #222222;
+}
